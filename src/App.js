@@ -1,12 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-//import Routes from './config/routes'
-import HomePage from './pages/HomePage'
+import Routes from './config/routes'
+
 
 function App() {
-  return (/*<Routes/>*/
-    <HomePage/>
+  return (<Routes/>
   );
 }
 
