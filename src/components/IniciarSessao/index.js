@@ -18,7 +18,7 @@ function IniciarSessao (props) {
                 <Paragrafo>com uma conta Steam existente</Paragrafo>
                 <br />
                 <TextInput label='Nome de usuário Steam' />
-                <TextInput label='Senha' />
+                <TextInput label='Senha' type='password'/>
               </Col>
 
               <Col md={6} className='Traco'>
